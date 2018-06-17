@@ -192,7 +192,7 @@ SoundDriver = ALSA:OSS:JACK
 #
 # Example:    Theme = laras_theme
 #
-Theme = /usr/share/moc/themes/darkdot_theme
+Theme = /usr/local/share/moc/themes/darkdot_theme
 
 # The theme used when running on an xterm.
 #
