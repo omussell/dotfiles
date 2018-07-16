@@ -8,6 +8,7 @@
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 ZSH_THEME="minimal"
+#ZSH_THEME="cypher"
 
 alias t='python2.7 ~/t/t.py --task-dir ~/grim/todo/tasks --list tasks'
 
