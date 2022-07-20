@@ -10,7 +10,7 @@
 ZSH_THEME="minimal"
 #ZSH_THEME="cypher"
 
-alias t='python2.7 ~/t/t.py --task-dir ~/grim/todo/tasks --list tasks'
+alias t='python3.7 ~/t/t.py --task-dir ./todo --list tasks'
 export LANG="en_GB.UTF-8"
 
 # Set list of themes to load
