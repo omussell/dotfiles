@@ -96,3 +96,10 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+export SSH_AUTH_SOCK="/Users/oem/.ssh/ssh_agent_socket.sock"
+alias ssh-agent="ssh-agent -a /Users/oem/.ssh/ssh_agent_socket.sock"
+alias ssh-add="ssh-add /Users/oem/.ssh/id_ed25519"
+
+alias tf="terraform"
+alias vim="nvim"
